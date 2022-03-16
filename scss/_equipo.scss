@@ -1,0 +1,26 @@
+/*EQUIPO*/
+
+#imgEquipo  {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 45rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-self: center;
+}   
+
+.imagenEquipo :hover{
+    transform: rotateY(360deg);
+    transition: all 5s;
+}
+
+#imgEquipo p{
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 25%;  
+}

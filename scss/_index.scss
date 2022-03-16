@@ -1,0 +1,40 @@
+#padreHome {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30%;
+    grid-template-areas:"video img"
+                        "video parrafo";
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(255, 166, 0);
+    width: 100vw;
+    max-width: 100%;
+}
+
+
+#video{
+    grid-area: video;
+    width: 50rem;
+
+}
+
+#imgHome{
+    grid-area: img;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+
+#parrafoHome{
+    grid-area: parrafo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 80%;    
+    height: 20px;
+
+}

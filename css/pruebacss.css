@@ -1,0 +1,339 @@
+#padreHome {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 30%;
+  grid-template-areas: "video img" "video parrafo";
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  justify-items: center;
+  background-color: #ffa600;
+  width: 100vw;
+  max-width: 100%; }
+
+#video {
+  grid-area: video;
+  width: 50rem; }
+
+#imgHome {
+  grid-area: img;
+  width: 80%;
+  height: 80%;
+  align-items: center; }
+
+#parrafoHome {
+  grid-area: parrafo;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  width: 80%;
+  height: 20px; }
+
+/*EQUIPO*/
+#imgEquipo {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 45rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  color: black;
+  align-items: center;
+  justify-self: center; }
+
+.imagenEquipo :hover {
+  transform: rotateY(360deg);
+  transition: all 5s; }
+
+#imgEquipo p {
+  width: 50%;
+  position: relative;
+  top: 20%;
+  left: 25%; }
+
+/*COMBOS*/
+.promo {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  animation-duration: infinite;
+  text-align: center;
+  height: 3rem;
+  background-color: aqua; }
+
+#padreCombo {
+  background-color: #3a0b66;
+  display: grid;
+  height: 75rem;
+  width: 100vw;
+  max-width: 100%;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 30% 30%;
+  grid-template-areas: "combo1 combo2 combo3" "combo4 combo5 combo6";
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  row-gap: 10%; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  border-radius: 10px;
+  padding: 5%;
+  height: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.card:hover {
+  transform: scale(1.03, 1.03); }
+
+.card button {
+  margin-top: 10%; }
+
+.card button :hover {
+  transform: rotate(30deg); }
+
+.card img {
+  height: 151.8px; }
+
+#spaNenas {
+  grid-area: combo1;
+  width: 100%; }
+
+#fiestaFluor {
+  grid-area: combo2;
+  width: 100%; }
+
+#cumpleArte {
+  grid-area: combo3;
+  width: 100%; }
+
+#spa {
+  grid-area: combo4;
+  width: 100%; }
+
+#fie {
+  grid-area: combo5;
+  width: 100%; }
+
+#cump {
+  grid-area: combo6;
+  width: 100%; }
+
+h1 {
+  padding: 100px 0px 30px 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3vw;
+  color: black; }
+
+.promo {
+  width: 100%;
+  height: 8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  animation-name: colores;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  background-color: #450552;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+@keyframes colores {
+  0% {
+    background-color: #e65a19; }
+  25% {
+    background-color: #00c3ff; }
+  50% {
+    background-color: #fab300; }
+  75% {
+    background-color: #8a1b61; }
+  100% {
+    background-color: red; } }
+
+/*GALERIA*/
+.imagenesGaleria {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 300px 300px;
+  column-gap: 2%;
+  row-gap: 5%;
+  height: 50rem;
+  justify-content: space-around;
+  align-content: center; }
+
+.imagenesGaleria img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s; }
+
+.imagenesGaleria img:hover {
+  transform: scale(1.07, 1.07); }
+
+/*CONTACTO*/
+iframe {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 40px;
+  padding-left: 30px;
+  align-items: center; }
+
+main h3 {
+  padding: 20% 0% 5% 0%;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: black; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  margin: 80px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fd8b00;
+  padding-left: 30px;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px; }
+
+input, button {
+  background-color: white;
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #450552;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 5px; }
+
+button {
+  width: 70px;
+  height: 30px; }
+
+@media only screen and (max-width: 600px) {
+  .bienvenido {
+    visibility: hidden;
+    display: none; }
+  .imagenesGaleria {
+    grid-template-columns: 100%;
+    grid-template-rows: 30rem 30rem 30rem 30rem 30rem 30rem;
+    height: 202rem; }
+  nav ul {
+    height: 180px; }
+  nav img {
+    padding-top: 10px;
+    padding-bottom: 20px; }
+  ul {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  #padreHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: max-content; }
+  #parrafoHome {
+    text-align: center;
+    top: 0; }
+  #video {
+    width: 100%; }
+  #imgEquipo {
+    height: 50rem; }
+  .card {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    border-radius: 1vw;
+    padding: 2%;
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.botonFlotante {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1rem;
+  width: 3.4375rem;
+  height: 3.4375rem;
+  line-height: 3.4375rem;
+  background: #0df053;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 1.875rem;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+
+nav {
+  position: absolute;
+  position: sticky;
+  top: 0px;
+  background-color: #ffa600; }
+
+nav img {
+  width: 20%; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 8px; }
+
+ul a {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2vw;
+  position: sticky;
+  bottom: 0px; }
+
+ul a:hover {
+  color: #450552; }
+
+.bienvenido {
+  background-image: url(../img/baile.jpg);
+  width: 100vw;
+  max-width: 100%;
+  height: calc(100vh - 100px);
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.bienvenido h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8vw;
+  color: white;
+  animation-duration: 2s; }
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #170529;
+  height: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: space-around; }
+
+footer img {
+  height: 20px;
+  background-color: #170529; }
