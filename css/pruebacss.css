@@ -31,6 +31,24 @@
   width: 80%;
   height: 20px; }
 
+.tituloGaleria {
+  width: 50vw;
+  height: 100px;
+  background-color: #170529;
+  color: white; }
+
+.tituloCombo {
+  width: 50vw;
+  height: 100px;
+  background-color: #450552;
+  color: white; }
+
+.tituloCombo {
+  width: 50vw;
+  height: 100px;
+  background-color: #450552;
+  color: white; }
+
 /*EQUIPO*/
 #imgEquipo {
   display: flex;
@@ -62,7 +80,7 @@
   height: 3rem;
   background-color: aqua; }
 
-#padreCombo {
+.padreCombo {
   background-color: #3a0b66;
   display: grid;
   height: 75rem;

@@ -3,3 +3,23 @@ $violetaOscuro:rgb(23, 5, 41);
 $violetaClaro: #450552;
 $blanco: rgb(255, 255, 255);
 $negro:rgb(0, 0, 0);
+
+
+@mixin titulo ($anchoTit, $altoTit, $colorBg, $colorLetra){
+    width: $anchoTit;
+    height: $altoTit;
+    background-color: $colorBg;
+    color: $colorLetra;
+}
+
+.tituloGaleria{
+    @include titulo (50vw , 100px ,$violetaOscuro ,$blanco )
+}
+
+.tituloCombo{
+    @include titulo (50vw , 100px ,$violetaClaro ,$blanco )
+}
+
+.tituloCombo{
+    @include titulo (50vw , 100px ,$violetaClaro ,$blanco )
+}
